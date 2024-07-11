@@ -453,7 +453,13 @@ add(4, 4, val => console.log(val));
 // resultFuncation();
 
 
+function applyOperation(a, b, operation) {
+    return operation(a, b);
+}
 
+const add = (x, y) => x + y;
+
+console.log(applyOperation(3, 4, add)); // 7
 
 
 function greet(name) { 
