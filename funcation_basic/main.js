@@ -354,17 +354,133 @@
 
 // console.log(getFullName(user));
 
+// const fruit = ['banana', 'graps', 'mango' ,'apple'];
+
+// function fruitsFuncation([first, second, third]) {
+//     console.log(`${first} ${second} ${third}`);
+// }
+
+// fruitsFuncation(fruit);
+
+// const number = [1, 2, 3 ,4,5];
+
+// function numberFuncation([first, second, third]) {
+//     console.log(`${first} ${second} ${third}`);
+// }
+
+// fruitsFuncation(number);
+
+
+
+
+// function generateTable() {
+
+//     const number = parseInt(prompt("Enter a number"));
+//     // console.log(`${number}`);
+//     for (let i = 1; i <= 10; i++) {
+//         console.log(`${number} x ${i} = ${number * i}`);
+//     }
+// }
+
+// generateTable();
+
+
+
+// function generateTable() {
+//     const input = prompt("Enter a number");
+//     const number = parseInt(input);
+    
+//     if (isNaN(number) ) {
+//         console.log("Invalid input, please enter a valid number.");
+//     } else {
+//         for (let i = 1; i <= 10; i++) {
+//             console.log(`${number} x ${i} = ${number * i}`);
+//         }
+//     }
+// }
+
+// generateTable();
 
 
 
 
 
-function generateTable() {
-    const number = parseInt(prompt("Enter a number "));
-    // console.log(`${number}`);
-    for (let i = 1; i <= 10; i++) {
-        console.log(`${number} x ${i} = ${number * i}`);
-    }
+
+
+// function getUserData(firstName, lastName, ...otherdetiles) {
+//             console.log(`fullname:${firstName} ${lastName} ${otherdetiles}`)
+// }
+// console.log(getUserData('ajay','yogi' ,'city:chomu'))
+
+
+
+
+
+
+
+
+
+// higher order function
+
+// ek funcation funcation ko as a argument leta/accepts  h
+
+
+
+
+function add(a,b, cb) {
+    let result = a + b;
+    cb(result);
+        // return ()=>console.log(result)
+
 }
 
-generateTable();
+
+
+add(4, 4, val => console.log(val));
+
+
+// add(2, 4, function (val) {
+//     console.log(val);
+// });
+
+
+
+
+
+
+// let resultFuncation = add(5, 5, () => { });
+    
+// resultFuncation();
+
+
+
+
+
+function greet(name) { 
+    return `Namste ${name} `; 
+} 
+  
+function greet_name(greet,  name) { 
+    console.log(`${greet(name)} `); 
+} 
+  
+greet_name(greet, "Ajay");
+
+
+
+
+
+function divide(a, b) {
+    if (b === 0) {
+        throw new Error('Division by zero is not allowed.');
+        
+    }
+    return a / b;
+    
+}
+try {
+    
+    console.log(divide(50,0))
+} catch (error) {
+    console.error(error.message); 
+}
