@@ -484,3 +484,15 @@ try {
 } catch (error) {
     console.error(error.message); 
 }
+
+   
+
+try {
+    errorFuncation();
+  const errorFuncation = function () {
+    console.log('hello')
+   } 
+    
+} catch (error) {
+    console.error(error.message); 
+}
