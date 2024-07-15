@@ -4,6 +4,7 @@
 //     const FIRST_NAME = "Ajay";
 //     return FIRST_NAME;
 // }
+
 // getMyFirstName();
 // console.log(FIRST_NAME);
 
@@ -530,18 +531,7 @@
 
 
 
-// function filterData(data) {
-//     return data.filter(item => item.age > 18);
-// }       
 
-// let data = [
-//     {name: "John", age: 20},
-//     {name: "Jane", age: 15},
-//     {name: "Bob", age: 25}
-// ];
-
-// let adults = filterData(data);
-// console.log(adults);
 
 
 
@@ -561,7 +551,117 @@
 
 
 
+// function displayPerson({ name, age, address }) {
+//   console.log(`Name: ${name}, Age: ${age}, City: ${address.city} ${address.state}`);
+// }
+
+// const person = {
+//   name: "John Doe",
+//   age: 30,
+//     address: {
+//         city: "chomu",
+//         state:"Rajasthan"
+//   }
+// };
+
+// displayPerson(person);
 
 
 
 
+//  function applyOperation(operation) {
+//     return operation("hello");
+// }
+
+// const add = (name) => name + "Ajay";
+
+// console.log(applyOperation(add));
+
+
+// function message(greet) {
+//     return greet('Namaste:');
+// }
+
+// const a = (name) => name+"Ajay"
+
+
+// console.log(message(a));
+
+
+
+
+
+
+
+
+// const person = new Object();
+// person.firstName = "John";
+// person.lastName = "Doe";
+// person.age = 50;
+// person.eyeColor = "blue";
+
+// console.log(person)
+
+// const person = {
+//   firstName: "John",
+//   lastName : "Doe",
+//   id       : 5566,
+//     fullName () {
+//         return this.firstName + " " + this.lastName;
+    
+//     }
+    
+// };
+// console.log(person.fullName())
+
+
+// const person = {
+//   firstName:"John",
+//   lastName:"Doe",
+//   age:50, eyeColor:"blue"
+// }
+// console.log(person)
+// const x = person;
+
+// x.age = 18;
+// x.firstName = "Ajay";
+// x.lastName = "Yogi";
+
+// console.log(person)
+
+
+
+
+
+
+
+
+// function greet(a) {
+//     return a('Namste:');
+// }
+
+// const message = (name) => name + "Ajay";
+
+// console.log(greet(message));
+
+// function greet(callback) {
+//     return callback('Good Morning,');
+
+// }
+// const message = (name) => name + 'Ajay';
+// const message1 = (name) => name + 'Rahul';
+// const message3 = (name) => name + 'Alice';
+
+// console.log(greet(message,message1));
+// console.log(greet(message1));
+// console.log(greet(message3));
+
+// function greet(...callbacks) {
+//     return callbacks.map(callbacks=>callbacks('Good Morning,'));
+// }
+
+// const message = (name) => name + 'Ajay';
+// const message1 = (name) => name + 'Rahul';
+// const message2 = (name) => name + 'Alice';
+
+// console.log(greet(message, message1, message2));
