@@ -427,16 +427,16 @@
 
 
 
-function add(a,b, cb) {
-    let result = a + b;
-    cb(result);
-        // return ()=>console.log(result)
+// function add(a,b, cb) {
+//     let result = a + b;
+//     cb(result);
+//         // return ()=>console.log(result)
 
-}
+// }
 
 
 
-add(4, 4, val => console.log(val));
+// add(4, 4, val => console.log(val));
 
 
 // add(2, 4, function (val) {
@@ -453,52 +453,115 @@ add(4, 4, val => console.log(val));
 // resultFuncation();
 
 
-function applyOperation(a, b, operation) {
-    return operation(a, b);
-}
+// function applyOperation(a, b, operation) {
+//     return operation(a, b);
+// }
 
-const add = (x, y) => x + y;
+// const add = (x, y) => x + y;
 
-console.log(applyOperation(3, 4, add)); // 7
+// console.log(applyOperation(3, 4, add)); 
+               
 
-
-function greet(name) { 
-    return `Namste ${name} `; 
-} 
+ // function greet(name) { 
+ //     return `Namste ${name} `; 
+// } 
   
-function greet_name(greet,  name) { 
-    console.log(`${greet(name)} `); 
-} 
+// function greet_name(greet,  name) { 
+//     console.log(`${greet(name)} `); 
+// } 
   
-greet_name(greet, "Ajay");
+// greet_name(greet, "Ajay");
 
 
 
 
 
-function divide(a, b) {
-    if (b === 0) {
-        throw new Error('Division by zero is not allowed.');
+// function divide(a, b) {
+//     if (b === 0) {
+//         throw new Error('Division by zero is not allowed.');
         
-    }
-    return a / b;
+//     }
+//     return a / b;
     
-}
-try {
+// }
+// try {
     
-    console.log(divide(50,0))
-} catch (error) {
-    console.error(error.message); 
-}
+//     console.log(divide(50,0))
+// } catch (error) {
+//     console.error(error.message); 
+// }
 
    
 
-try {
-    errorFuncation();
-  const errorFuncation = function () {
-    console.log('hello')
-   } 
+// try {
+//     errorFuncation();
+//   const errorFuncation = function () {
+//     console.log('hello')
+//    } 
     
-} catch (error) {
-    console.error(error.message); 
-}
+// } catch (error) {
+//     console.error(error.message); 
+// }
+
+
+
+
+
+
+
+
+
+
+
+// const delay = 2000;
+
+// setTimeout(() => {
+//     console.log('done');
+// }, delay);
+
+
+
+
+// setTimeout(() => {
+//     console.log("hello");
+// }, 3000);
+
+// console.log("hello2");
+
+
+
+// function filterData(data) {
+//     return data.filter(item => item.age > 18);
+// }       
+
+// let data = [
+//     {name: "John", age: 20},
+//     {name: "Jane", age: 15},
+//     {name: "Bob", age: 25}
+// ];
+
+// let adults = filterData(data);
+// console.log(adults);
+
+
+
+// function changeContent() {
+    
+//     document.getElementById("myDiv").innerHTML = "Content changed!";
+// }
+
+// window.onload = function () {
+//     setTimeout(function () {
+//         document.getElementById("myDiv").innerHTML = "Content changed!";
+          
+//       }, 2000)
+    
+// }
+
+
+
+
+
+
+
+
