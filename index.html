@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,6 +13,52 @@
 
 <body>
    
+
+
 </body>
 
-</html>
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification Example</title>
+    <style>
+        .notification {
+            position: relative;
+            display: inline-block;
+        }
+
+        .notification .badge {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            padding: 5px 10px;
+            border-radius: 50%;
+            background: red;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="notification">
+        <img src="notification-icon.png" alt="Notification Icon">
+        <span class="badge" id="notification-count">0</span>
+    </div>
+
+    <button onclick="addNotification()">Add Notification</button>
+
+    <script>
+        let notificationCount = 0;
+
+        function addNotification() {
+            notificationCount++;
+            document.getElementById('notification-count').textContent = notificationCount;
+        }
+    </script>
+</body>
+
+</html> -->
