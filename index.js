@@ -64,13 +64,13 @@
 
 
 
-let str = "ajay";
-console.log(str)
-// console.log(str.toLowerCase( ))
-console.log(str.toUpperCase())
-console.log(str.trim( ))
-console.log(str.length)
-console.log(str[0],str[1],str[2],str[3] ,str[4])
+// let str = "ajay";
+// console.log(str)
+// // console.log(str.toLowerCase( ))
+// console.log(str.toUpperCase())
+// console.log(str.trim( ))
+// console.log(str.length)
+// console.log(str[0],str[1],str[2],str[3] ,str[4])
 
 
 // let str = `string text ${expression} string text`;
