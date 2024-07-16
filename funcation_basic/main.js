@@ -665,3 +665,53 @@
 // const message2 = (name) => name + 'Alice';
 
 // console.log(greet(message, message1, message2));
+
+
+
+
+
+
+// const nub =[200 ,723 ,100, 400]
+
+
+// function clacluteCartPrice(nub) {
+//     return nub;
+
+// }
+// console.log(clacluteCartPrice(nub[1]))
+
+
+
+
+
+// function getuserdata () {
+//     return myuserdata;
+// }
+// const myuserdata = {
+//     name: "Ajay",
+//     id:2343
+
+// }
+// console.log(myuserdata.name);
+
+
+
+// let itemPrice = [250, 400, 300, 200, 100];
+
+// for (const price of itemPrice) {
+//     offer = price / 10;
+//     totalPrice = price - offer;
+//     console.log(totalPrice);
+// }
+
+
+let cart = [];
+
+function addToCart(productName, productPrice) {
+  const product = { name: productName, price: productPrice };
+  cart.push(product);
+  console.log('Cart:', cart);
+}
+
+addToCart('Product 1', 29.99);
+addToCart('Product 2', 19.99);
