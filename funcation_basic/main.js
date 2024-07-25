@@ -705,13 +705,13 @@
 // }
 
 
-let cart = [];
+// let cart = [];
 
-function addToCart(productName, productPrice) {
-  const product = { name: productName, price: productPrice };
-  cart.push(product);
-  console.log('Cart:', cart);
-}
+// function addToCart(productName, productPrice) {
+//   const product = { name: productName, price: productPrice };
+//   cart.push(product);
+//   console.log('Cart:', cart);
+// }
 
-addToCart('Product 1', 29.99);
-addToCart('Product 2', 19.99);
+// addToCart('Product 1', 29.99);
+// addToCart('Product 2', 19.99);
